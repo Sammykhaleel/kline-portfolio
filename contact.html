@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Kline Sauer's-Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link
+            href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16"
+            href="favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="favicon_io/site.webmanifest">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+
+        <header class="page-header">
+            <a href="index.html">
+                <img border="0" alt="logo" class="page-header_item"
+                    src="img/AH.gif"
+                    width="200"
+                    height="120" />
+            </a>
+            <nav class="main-navigation page-header__item">
+                <ul role="menubar" class="navigation-list">
+                    <li role="presentation">
+                        <a href="index.html" role="menuitem"
+                            class="navigation-list__item">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="about.html" role="menuitem"
+                            class="navigation-list__item">About Me</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="contact.html" role="menuitem"
+                            class="navigation-list__item
+                            navigation-list__item--active">Contact</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="work.html" role="menuitem"
+                            class="navigation-list__item">Work</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="contact__section">
+            <h1>Contact</h1>
+
+            <div>
+                <p>
+                    Kline Sauer <br>
+                    3710 Garnet St. Apt 119 <br>
+                    Torrance, Ca <br>
+                    90503 <br>
+                    <br>
+                </p>
+                Tel <a href="9518331257" aria-label="Telephone">9518331257</a><br>
+                Skype <a href="skype:live:klinesauer">live:klinesauer</a><br>
+                <a href="mailto:klinesauer@yahoo.com">Klinesauer@yahoo.com</a>
+            </div>
+
+            <br><br>
+
+            <a href="mailto:klinesauer@yahoo.com">Contact me</a>
+            <br> <br>
+            <form action="" method="post" id="contact-form">
+                <label class="standard-label" for="contact-email"> Email:
+                </label>
+                <input type="email" id="contact-email" required>
+
+                <label class="standard-label" for="contact-number"> Telephone:
+                </label>
+                <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+                    id="contact-number">
+
+                <label class="standard-label" for="message"> Message: </label>
+                <textarea maxlength="240" id="message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+        <footer class="page-footer">
+            <div class="social-media">
+                <p>Find me on</p>
+                <!-- Github logo -->
+                <a href="https://www.Github.com" target="_blank">
+                    <img border="0" alt="githubfavicon"
+                        src="img/githubfavicon.png" width="100"
+                        height="100" /></a>
+                <!-- Twitter logo -->
+                <a href="https://www.twitter.com" target="_blank">
+                    <img border="0" alt="twitter" src="img/twitter.png"
+                        width="100"
+                        height="100"></a>
+
+                <!-- LinkedIn logo -->
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img border="0" alt="linkedin" src="img/linkedinfavicon.png"
+                        width="100"
+                        height="100"></a>
+
+            </div>
+        </footer>
+        <script src="script.js/tota11y.min.js"></script>
+    </body>
+
+</html>
